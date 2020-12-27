@@ -120,7 +120,7 @@ make
 make install
 
 14. ffmpeg
-git https://gitee.com/dong2/ffmpeg.git ffmpeg
+git https://gitee.com/dong2/FFmpeg.git ffmpeg
 cd ffmpeg
 # grap a release branch
 git checkout n1.2
