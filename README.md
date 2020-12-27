@@ -1,4 +1,4 @@
-### FreeSwitch_Webrtc2sip_Gateway
+### Webrtc2sip Gateway
 
 sudo yum update  
 
