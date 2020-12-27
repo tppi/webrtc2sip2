@@ -142,6 +142,7 @@ make
 make install
 
 16. webrtc2sip
+git clone https://gitee.com/dong2/webrtc2sip.git
 yum install libxml2-devel
 export PREFIX=/opt/webrtc2sip
 cd webrtc2sip
