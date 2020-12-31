@@ -169,7 +169,7 @@ cp -f ./config.xml $PREFIX/sbin/config.xml
 1. https://github.com/DoubangoTelecom/webrtc2sip/blob/master/documentation/technical-guide-1.0.pdf
 2. https://github.com/DoubangoTelecom/doubango/blob/master/Building_Source_v2_0.md
 3. https://autostatic.com/installing-webrtc2sip-on-ubuntu-1204/
-
+4. https://stackoverflow.com/questions/39466514/sip-to-webrtc-call
 
 
 
