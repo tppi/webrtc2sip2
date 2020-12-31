@@ -1,0 +1,26 @@
+Softswitch with WebRTC support:
+
+    asterisk (for linux)
+    freeswitch (linux and windows)
+    mizuvoip (for windows)
+    kamailio (for linux)
+
+WebRTC to SIP gateways:
+
+    doubango
+    oversip
+    mrtc
+    janus
+    oracle
+
+SIP (RFC 7118) capable WebRTC clients:
+
+    Simpl5 (from dubango)
+    Jssip (old good)
+    Sip.js (successor of Jssip)
+    Webphone (works also in IE and Edge)
+    jscommunicator (with drupal plugin)
+
+Also you should deploy and use your own STUN and TURN servers (some of the server/gateways have these built-in, otherwise use coturn rfc5766-turn-server).
+
+Once the server side is up and running, you can easily create your custom client side solution based on the above webrtc clients since each of them has a simple to use JavaScript API.
