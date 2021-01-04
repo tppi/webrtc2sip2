@@ -1,0 +1,26 @@
+[root@centos7 sbin]# ./webrtc2sip --config=config.xml
+*******************************************************************
+Copyright (C) 2012-2015 Doubango Telecom <http://www.doubango.org>
+PRODUCT: webrtc2sip
+HOME PAGE: http://webrtc2sip.org
+LICENCE: GPLv3 or proprietary
+VERSION: 2.7.0
+'quit' to quit the application.
+*******************************************************************
+
+SSL is enabled :)
+DTLS supported: yes
+DTLS-SRTP supported: yes
+***[DOUBANGO ERROR]: function: "tnet_tls_socket_accept()" 
+file: "src/tls/tnet_tls.c" 
+line: "164" 
+MSG: SSL_accept() failed with error code [1, error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown]
+***[DOUBANGO ERROR]: function: "tnet_transport_mainthread()" 
+file: "src/tnet_transport_poll.c" 
+line: "724" 
+MSG: SSL_accept() failed
+***[DOUBANGO ERROR]: function: "tnet_transport_mainthread()" 
+file: "src/tnet_transport_poll.c" 
+line: "724" 
+MSG: (SYSTEM)NETWORK ERROR ==>Success
+
